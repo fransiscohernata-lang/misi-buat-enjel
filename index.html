@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Misi buat Angel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Audio -->
+    <audio id="suara-wow" src="wow.mp3"></audio>
+    <audio id="bgm" src="backsound.mp3" loop></audio>
+
+    <div id="game-container">
+        
+        <!-- Layar Mulai -->
+        <div id="layar-mulai">
+            <h1>Hi njel! </h1>
+            <p>aku lagi mau otw jemput km</p>
+            <p>aku lupa ada sesuatu hal yg aku sukai tp lupa naruhnya di mana</p>
+            <p>bantu aku nyari di kamar ini, waktunya cuma 60 detik</p>
+            <p>kalo lebih dari 60 detik nanti njel njel ngambek</p>
+            <button onclick="mulaiGame()">start!</button>
+        </div>
+
+        <div id="ui-bar">
+            <span>Sisa Waktu: <span id="waktu">60</span> detik</span>
+            <span> Ditemukan: <span id="skor">0</span> / 5</span>
+        </div>
+
+        <!-- Memanggil gambar barang -->
+        <img id="bola" class="barang" src="bola.png" alt="Bola" onclick="temukanBarang('bola')">
+        <img id="jersey" class="barang" src="jersey.png" alt="Jersey" onclick="temukanBarang('jersey')">
+        <img id="nasgor" class="barang" src="nasgor.png" alt="Nasgor" onclick="temukanBarang('nasgor')">
+        <img id="hati" class="barang" src="hati.png" alt="Hati" onclick="temukanBarang('hati')">
+        <img id="sepatu" class="barang" src="sepatu.png" alt="Sepatu" onclick="temukanBarang('sepatu')">
+
+        <!-- Layar Hadiah -->
+        <div id="layar-menang">
+            <h1>🎉 km keren🎉</h1>
+            <p>nih tk kasih hadiah:</p>
+            <p>(btw ini kl klik claim langsung ke download di galeri hp)</p>
+            <button onclick="klaimHadiah()">Klaim Voucher AYCE!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
