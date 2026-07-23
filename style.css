@@ -114,11 +114,11 @@ body {
 }
 
 /* POSISI BARANG */
-#bola { top: 63%; left: 43%; }
+#bola { top: 63%; left: 39%; }
 #jersey { top: 19%; left: 19%; }
-#nasgor { top: 47%; left: 48%; }
-#hati { top: 46%; left: 34%; }
-#sepatu { top: 20%; left: 55%; }
+#nasgor { top: 44%; left: 48%; }
+#hati { top: 42%; left: 28%; }
+#sepatu { top: 26%; left: 59%; }
 
 /* Layar Kemenangan */
 #layar-menang {
